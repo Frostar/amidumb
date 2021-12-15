@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  amidumb:
+    image: ghcr.io/frostar/amidumb:latest
+    ports:
+      - "8080:80"
